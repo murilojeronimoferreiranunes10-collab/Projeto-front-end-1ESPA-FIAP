@@ -20,6 +20,14 @@
 
 }
 
+/* Estilos Globais */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 body {
   background-color: var(--cor-secundaria);
   color: var(--cor-texto);
@@ -29,6 +37,10 @@ body {
 h1, h2, h3, h4, h5, h6 { 
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
+}
+
+main {
+    flex-grow: 1;
 }
 /* Estilos da NavBar */
 
@@ -63,4 +75,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a:hover {
   color: var(--cor-destaque); 
+}
+
+/* Estilos do Footer*/
+
+footer {
+  background-color: var(--cor-navbar);
+  color: #d4d4d4;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 40px; 
+}
+
+.imagem-principal {
+    height: 100px;
 }
