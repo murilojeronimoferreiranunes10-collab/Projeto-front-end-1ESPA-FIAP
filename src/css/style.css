@@ -2,21 +2,21 @@
 
 /* Reset CSS */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Variáveis para cores */
 :root {
-  --cor-primaria: #5a0a1b;
-  --cor-secundaria: #f0e6d2; 
-  --cor-texto: #333333;      
-  --cor-destaque: #c9a959;
-  --cor-navbar: #1E1E1C;
+    --cor-primaria: #5a0a1b;
+    --cor-secundaria: #f0e6d2;
+    --cor-texto: #333333;
+    --cor-destaque: #c9a959;
+    --cor-navbar: #1E1E1C;
 
-  --fonte-titulo: 'Playfair Display', serif;
-  --fonte-corpo: 'Montserrat', sans-serif;
+    --fonte-titulo: 'Playfair Display', serif;
+    --fonte-corpo: 'Montserrat', sans-serif;
 
 }
 
@@ -29,12 +29,12 @@
 }
 
 body {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-texto);
-  font-family: var(--fonte-corpo);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    font-family: var(--fonte-corpo);
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h1,h2,h3,h4,h5,h6 {
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
 }
@@ -42,50 +42,49 @@ h1, h2, h3, h4, h5, h6 {
 main {
     flex-grow: 1;
 }
-/* Estilos da NavBar */
 
-.logo {
-  height: 200px;     
-  padding-left: 80px;    
+/* Estilos NavBar */
+
+
+
+header {
+    width: 100%;
+    background-color: #1E1E1C;
 }
 
-.navbar{
-  background-color: #1E1E1C; 
-  height: 80px;              
-  display: flex;
-  align-items: center;       
-  justify-content: space-between; 
-  padding: 0 50px;
+.navbar {
+    padding: 18px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar ul {
-  list-style: none; 
-  display: flex; 
-  gap: 30px; 
+    list-style: none;
+    display: flex;
+    gap: 30px;
 }
 
 .navbar a {
-  text-decoration: none; 
-  color: #d4d4d4;
-  font-weight: bold;
-  font-size: 1rem;
-  padding: 8px 12px;
-  border-radius: 5px;
+    text-decoration: none;
+    color: #d4d4d4;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .navbar a:hover {
-  color: var(--cor-destaque); 
+    color: var(--cor-destaque);
 }
 
-/* Estilos do Footer*/
+/* Estilos Footer*/
 
 footer {
-  background-color: var(--cor-navbar);
-  color: #d4d4d4;
-  text-align: center;
-  padding: 20px 0;
-  width: 100%;
-  margin-top: 40px; 
+    background-color: var(--cor-navbar);
+    color: #d4d4d4;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .imagem-principal {
