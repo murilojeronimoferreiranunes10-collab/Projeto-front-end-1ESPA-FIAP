@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variáveis para cores */
+:root {
+  --cor-primaria: #5a0a1b;
+  --cor-secundaria: #f0e6d2; 
+  --cor-texto: #333333;      
+  --cor-destaque: #c9a959;
+  --cor-navbar: #1E1E1C;
+
+  --fonte-titulo: 'Playfair Display', serif;
+  --fonte-corpo: 'Montserrat', sans-serif;
+
+}
+
+body {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  font-family: var(--fonte-corpo);
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+}
+/* Estilos da NavBar */
+
+.logo {
+  height: 200px;     
+  padding-left: 80px;    
+}
+
+.navbar{
+  background-color: #1E1E1C; 
+  height: 80px;              
+  display: flex;
+  align-items: center;       
+  justify-content: space-between; 
+  padding: 0 50px;
+}
+
+.navbar ul {
+  list-style: none; 
+  display: flex; 
+  gap: 30px; 
+}
+
+.navbar a {
+  text-decoration: none; 
+  color: #d4d4d4;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  color: var(--cor-destaque); 
+}
