@@ -1,7 +1,5 @@
 # 🍷 Vinharia Agnello
 
-![Wine Banner](https://images.unsplash.com/photo-1542838689-0d3fcf2e3d65?auto=format&fit=crop&w=1350&q=80)  
-
 ## 📖 Sobre o Projeto
 **Vinharia Agnello** é um site institucional desenvolvido para apresentar a vinícola Agnello, destacando sua história, produtos, processo de produção e canal de contato. O projeto busca proporcionar uma experiência visual elegante, reforçando a tradição e a qualidade dos vinhos.
 
@@ -10,13 +8,9 @@
 ## 🛠 Tecnologias Utilizadas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)  
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
-![Responsive](https://img.shields.io/badge/Responsivo-Sim-brightgreen)
 
 - **HTML5** para estrutura do site.  
 - **CSS3** para estilização e responsividade.  
-- **JavaScript** para interatividade (quando necessário).  
-- Layout **responsivo**, adaptável para desktop, tablet e mobile.
 
 ---
 
@@ -29,7 +23,6 @@ VinhariaAgnello/
 ├─ processo.html # Processo de produção
 ├─ contato.html # Formulário de contato
 ├─ css/ # Estilos CSS
-├─ js/ # Scripts JavaScript
 └─ img/ # Imagens do site
 
 ---
@@ -48,5 +41,22 @@ VinhariaAgnello/
 ## 💻 Executando Localmente
 
 1. Clone o repositório:
-   ```bash
+   bash
    git clone https://github.com/seu-usuario/vinharia-agnello.git
+
+   🎨 Objetivos do Projeto
+
+Apresentar a vinícola de forma profissional e elegante.
+
+Destacar os produtos e o processo de produção do vinho.
+
+Criar um canal de contato funcional com os visitantes.
+
+Garantir uma experiência responsiva e agradável em todos os dispositivos.
+| Página Inicial                                | Produtos                                         |
+| --------------------------------------------- | ------------------------------------------------ |
+| ![index](https://via.placeholder.com/400x250) | ![produtos](https://via.placeholder.com/400x250) |
+| Processo do Vinho                                | Contato                                         |
+| ------------------------------------------------ | ----------------------------------------------- |
+| ![processo](https://via.placeholder.com/400x250) | ![contato](https://via.placeholder.com/400x250) |
+
