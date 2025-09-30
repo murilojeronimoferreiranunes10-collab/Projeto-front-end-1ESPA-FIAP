@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Reset CSS */
 * {
@@ -15,8 +15,8 @@
     --cor-destaque: #c9a959;
     --cor-navbar: #1E1E1C;
 
-    --fonte-titulo: 'Playfair Display', serif;
-    --fonte-corpo: 'Montserrat', sans-serif;
+    --fonte: 'Poppins', sans-serif;
+
 
 }
 
@@ -29,14 +29,14 @@
 }
 
 body {
-    font-family: "Georgia",serif;
+    font-family: var(--fonte);
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
-    font-family: var(--fonte-corpo);
+    font-family: var(--fonte);
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte);
     color: var(--cor-primaria);
 }
 
@@ -70,14 +70,14 @@ header {
     text-decoration: none;
     color: #d4d4d4;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .navbar a:hover {
     color: var(--cor-destaque);
 }
 
-/* Estilos Footer*/
+/* Estilos Footer */
 
 footer {
     background-color: var(--cor-navbar);
@@ -88,6 +88,64 @@ footer {
     margin-top: 40px;
 }
 
-.imagem-principal {
-    height: 100px;
+
+/* Formulário de Contato */
+.contato-container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.form-card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    padding: 28px;
+}
+
+.form-card h1 {
+    margin-bottom: 10px;
+}
+
+.contato-intro {
+    color: #555;
+    margin-bottom: 22px;
+}
+
+.contato-form {
+    display: grid;
+    gap: 16px;
+}
+
+.form-itens {
+    display: grid;
+    gap: 8px;
+}
+
+.form-itens label {
+    font-weight: 600;
+    color: var(--cor-primaria);
+}
+
+.form-itens input, .form-itens textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--fonte);
+    background-color: #fafafa;
+    color: var(--cor-texto);
+}
+
+.btn-enviar {
+    padding: 12px 20px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.btn-enviar:hover {
+    background: #6f0d22;
 }
