@@ -24,8 +24,8 @@ Criar um canal de contato funcional com os visitantes.
 Garantir uma experiência responsiva e agradável para todos os dispositivos.
 
 ## 👥 Integrantes
-Murilo Jeronimo Ferreira Nunes RM 560641
-Bruno Santos Castilho RM 566799
+Murilo Jeronimo Ferreira Nunes RM 560641.
+Bruno Santos Castilho RM 566799.
 
 ## 🌐 Github Pages
 [🔗 Clique aqui para acessar]
