@@ -58,19 +58,18 @@ O projeto utiliza **transições suaves e animações contínuas** para dar vida
 
 #### 🔹 Transições (`transition`)
 Foram aplicadas transições em links, botões e campos de formulário para criar um efeito de fluidez ao interagir:
-```css
-.navbar a:hover,
-.btn-enviar:hover,
-.btn-comprar:hover {
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-}
+- **`::scale`** → Controla o tamanho do elemento durante o pulso.  
+- **`::opacity`** → Mantém o brilho visível durante o efeito.  
+- **`::ease-in-out`** → Deixa a animação mais natural e fluida. 
+- **`::infinite`** → Faz o efeito se repetir continuamente enquanto o mouse está sobre o botão.
+
 ---
 
-### 👥 Integrantes
+## 👥 Integrantes 
+**Murilo Jeronimo Ferreira Nunes** — RM 560641
+**Bruno Santos Castilho** — RM 56679
 
-- **Murilo Jeronimo Ferreira Nunes** — RM 560641  
-- **Bruno Santos Castilho** — RM 566799  
+---
 
 ## 🌐 GitHub Pages
 🔗 [Acesse o site publicado aqui](https://murilojeronimoferreiranunes10-collab.github.io/Projeto-front-end-1ESPA-FIAP)
