@@ -321,6 +321,7 @@ footer {
     text-align: left;
     flex: 1 1 500px;
 }
+
 /* Página História */
 
 .historia-main {
@@ -361,7 +362,6 @@ footer {
     margin-top: 8px;
 }
 
-
 .tabela-vinhos {
     width: 100%;
     border-collapse: collapse;
@@ -390,4 +390,73 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* ==========================================================
+   🌟 PSEUDO-CLASSES E PSEUDO-ELEMENTOS — EFEITOS ESTÉTICOS
+   ========================================================== */
+
+/* :hover — destaque no menu */
+.navbar a:hover {
+    color: var(--cor-destaque);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+/* :focus — realce de campos */
+.form-itens input:focus,
+.form-itens textarea:focus {
+    border: 2px solid var(--cor-primaria);
+    outline: none;
+    box-shadow: 0 0 6px rgba(90, 10, 27, 0.5);
+    transition: 0.2s ease;
+}
+
+/* :nth-child() — segundo item do menu */
+.navbar ul li:nth-child(2) a {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+/* :not() — espaçamento entre itens */
+.navbar ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* :checked — para checkboxes */
+input[type="checkbox"]:checked + label {
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+/* ::before — ícone antes dos links */
+.navbar ul li a::before {
+    content: "🍷 ";
+    font-size: 1em;
+    transition: 0.3s ease;
+}
+
+/* ::after — linha decorativa */
+h1::after,
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--cor-destaque);
+    margin: 8px auto 0 auto;
+    border-radius: 3px;
+}
+
+/* ::first-letter — primeira letra destacada */
+.historia p::first-letter {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+/* ::selection — cor personalizada na seleção */
+::selection {
+    background: var(--cor-primaria);
+    color: #fff;
 }
