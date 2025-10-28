@@ -65,3 +65,12 @@ Foram aplicadas transições em links, botões e campos de formulário para cria
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
+
+### 👥 Integrantes
+
+- **Murilo Jeronimo Ferreira Nunes** — RM 560641  
+- **Bruno Santos Castilho** — RM 566799  
+
+## 🌐 GitHub Pages
+🔗 [Acesse o site publicado aqui](https://murilojeronimoferreiranunes10-collab.github.io/Projeto-front-end-1ESPA-FIAP)
+
