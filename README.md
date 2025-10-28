@@ -50,16 +50,18 @@ Abaixo estão as principais implementações de **pseudo-classes, pseudo-element
 - **`::first-letter`** → Destaca a primeira letra dos parágrafos na seção de história, simulando um estilo clássico.  
 - **`::selection`** → Personaliza a cor de fundo e texto ao selecionar qualquer trecho da página.
 
-### 💫 Animações e transições:
-(ADICIONAR - CASTILHO)
-
 ---
 
-## 👥 Integrantes
-- **Murilo Jeronimo Ferreira Nunes** — RM 560641  
-- **Bruno Santos Castilho** — RM 566799  
+### 💫 Animações e Transições
 
----
+O projeto utiliza **transições suaves e animações contínuas** para dar vida aos elementos da interface:
 
-## 🌐 GitHub Pages
-🔗 [Acesse o site publicado aqui](https://murilojeronimoferreiranunes10-collab.github.io/Projeto-front-end-1ESPA-FIAP)
+#### 🔹 Transições (`transition`)
+Foram aplicadas transições em links, botões e campos de formulário para criar um efeito de fluidez ao interagir:
+```css
+.navbar a:hover,
+.btn-enviar:hover,
+.btn-comprar:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
