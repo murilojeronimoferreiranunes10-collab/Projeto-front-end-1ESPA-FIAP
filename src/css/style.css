@@ -173,6 +173,14 @@ footer {
     color: var(--cor-texto);
 }
 
+.mensagem{
+    height: 40px;
+}
+
+.mensagem:focus {
+    height: 200px;
+}
+
 .btn-enviar {
     padding: 12px 20px;
     background-color: var(--cor-primaria);
