@@ -65,6 +65,7 @@ Foram aplicadas transições em links, botões e campos de formulário para cria
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
+---
 
 ### 👥 Integrantes
 
