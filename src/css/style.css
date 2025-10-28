@@ -107,10 +107,6 @@ header {
     font-size: 16px;
 }
 
-.navbar a:hover {
-    color: var(--cor-destaque);
-}
-
 /* Estilos Footer */
 
 footer {
@@ -262,11 +258,6 @@ footer {
     background: #6f0d22;
 }
 
-.comprar h3 {
-    margin-top: 40px;
-    text-align: center;
-    animation: pulsar 1.5s ease-in-out infinite;
-}
 
 /* Página Processos */
 
@@ -427,9 +418,17 @@ footer {
     transition: 0.2s ease;
 }
 
+.mensagem{
+    height: 40px;
+    transition: all 0.5s;
+}
+
+.mensagem:focus {
+    height: 200px;
+}
+
 /* :nth-child() — segundo item do menu */
 .navbar ul li:nth-child(2) a {
-    color: var(--cor-destaque);
     font-weight: 700;
 }
 
@@ -447,8 +446,7 @@ input[type="checkbox"]:checked + label {
 /* ::before — ícone antes dos links */
 .navbar ul li a::before {
     content: "🍷 ";
-    font-size: 1em;
-    transition: 0.3s ease;
+    font-size: 1rem;
 }
 
 /* ::after — linha decorativa */
@@ -474,4 +472,23 @@ h2::after {
 ::selection {
     background: var(--cor-primaria);
     color: #fff;
+}
+
+/* Animação Comprar */
+.comprar h3 {
+    margin-top: 40px;
+    text-align: center;
+    animation: pulsar 1.5s ease-in-out infinite;
+}
+
+/* Transições */
+
+.navbar li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.btn-comprar:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
